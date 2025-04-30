@@ -38,7 +38,7 @@ const Sidebar = () => {
           )}
         </div>
         <button
-          className="ml-auto text-sm font-medium text-gray-500"
+          className="ml-auto text-sm font-medium text-gray-500 cursor-pointer"
           onClick={() => setCollapsed((prev) => !prev)}
         >
           {!collapsed ? (
@@ -76,7 +76,7 @@ const Sidebar = () => {
       </div>
 
       <div className="flex flex-col space-y-4 mb-4 px-4 py-8 border-b border-gray-300">
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center space-x-2 rounded-lg cursor-pointer hover:bg-gray-100">
           <svg
             width="20"
             height="20"
@@ -106,7 +106,7 @@ const Sidebar = () => {
             <h3 className="text-lg font-semibold text-gray-600">Home</h3>
           )}
         </div>
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center space-x-2 rounded-lg cursor-pointer hover:bg-gray-100">
           <svg
             width="20"
             height="20"
@@ -149,7 +149,7 @@ const Sidebar = () => {
             <h3 className="text-lg font-semibold text-gray-600">Messages</h3>
           )}
         </div>
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center space-x-2 rounded-lg cursor-pointer hover:bg-gray-100">
           <svg
             width="20"
             height="20"
@@ -198,7 +198,7 @@ const Sidebar = () => {
             <h3 className="text-lg font-semibold text-gray-600">Tasks</h3>
           )}
         </div>
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center space-x-2 rounded-lg cursor-pointer hover:bg-gray-100">
           <svg
             width="20"
             height="20"
@@ -240,7 +240,7 @@ const Sidebar = () => {
             <h3 className="text-lg font-semibold text-gray-600">Members</h3>
           )}
         </div>
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center space-x-2 rounded-lg cursor-pointer hover:bg-gray-100">
           <svg
             width="20"
             height="20"
@@ -304,7 +304,7 @@ const Sidebar = () => {
           </svg>
         </div>
         <div className="flex flex-col space-y-6">
-          <div className="mx-2 flex items-center justify-between px-6 rounded-lg bg-gray-100">
+          <div className="mx-2 flex items-center justify-between hover:bg-gray-100 cursor-pointer px-6 rounded-lg bg-gray-100">
             <div className="flex items-center space-x-3">
               <svg
                 width="8"
@@ -330,7 +330,7 @@ const Sidebar = () => {
               />
             </svg>
           </div>
-          <div className="mx-2 flex items-center justify-between px-6 rounded-lg">
+          <div className="mx-2 flex items-center justify-between hover:bg-gray-100 cursor-pointer px-6 rounded-lg">
             <div className="flex items-center space-x-3">
               <svg
                 width="8"
@@ -360,7 +360,7 @@ const Sidebar = () => {
               />
             </svg>
           </div>
-          <div className="mx-2 flex items-center justify-between px-6 rounded-lg">
+          <div className="mx-2 flex items-center justify-between hover:bg-gray-100 cursor-pointer px-6 rounded-lg">
             <div className="flex items-center space-x-3">
               <svg
                 width="8"
@@ -390,7 +390,7 @@ const Sidebar = () => {
               />
             </svg>
           </div>
-          <div className="mx-2 flex items-center justify-between px-6 rounded-lg">
+          <div className="mx-2 flex items-center justify-between hover:bg-gray-100 cursor-pointer px-6 rounded-lg">
             <div className="flex items-center space-x-3">
               <svg
                 width="8"

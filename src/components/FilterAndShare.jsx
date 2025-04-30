@@ -181,7 +181,7 @@ const FilterAndShare = () => {
           </button>
         </div>
         <div className="flex flex-row items-center px-7 justify-center gap-4">
-          <div className="bg-[#5030E5] p-2 rounded-lg ">
+          <div className="bg-[#5030E5] p-2 rounded-lg cursor-pointer">
             <svg
               width="24"
               height="24"
@@ -200,6 +200,7 @@ const FilterAndShare = () => {
             </svg>
           </div>
           <svg
+            className="cursor-pointer"
             width="24"
             height="24"
             viewBox="0 0 21 21"

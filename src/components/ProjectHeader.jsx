@@ -70,7 +70,7 @@ const ProjectHeader = () => {
         </div>
       </div>
       <div className="flex flex-row gap-2 items-center justify-between">
-        <div className="flex flex-row gap-2 items-center justify-center">
+        <div className="flex flex-row gap-2 items-center justify-center cursor-pointer">
         <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M6 9H12" stroke="#5030E5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M9 12V6" stroke="#5030E5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -79,7 +79,7 @@ const ProjectHeader = () => {
 
         <p className="text-[#5030E5]">Invite</p>
         </div>
-        <div>
+        <div className="cursor-pointer">
           <img src={Invite} alt="invite.png" />
         </div>
       </div>

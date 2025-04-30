@@ -58,7 +58,7 @@ const Header = ({ onSearchChange }) => {
       </div>
 
       <div className="flex items-center space-x-8">
-        <button className="text-gray-500 hover:text-gray-700 relative transition-colors">
+        <button className="text-gray-500 hover:text-gray-700 relative transition-colors cursor-pointer">
           <svg
             width="24"
             height="24"
@@ -121,7 +121,7 @@ const Header = ({ onSearchChange }) => {
             />
           </svg>
         </button>
-        <button className="text-gray-500 hover:text-gray-700 relative transition-colors">
+        <button className="text-gray-500 hover:text-gray-700 relative transition-colors cursor-pointer">
           <svg
             width="24"
             height="24"
@@ -153,7 +153,7 @@ const Header = ({ onSearchChange }) => {
             />
           </svg>
         </button>
-        <button className="text-gray-500 hover:text-gray-700 relative transition-colors">
+        <button className="text-gray-500 hover:text-gray-700 relative transition-colors cursor-pointer">
           <svg
             width="24"
             height="24"
@@ -194,16 +194,17 @@ const Header = ({ onSearchChange }) => {
               aria-expanded={isDropdownOpen}
               aria-haspopup="true"
             >
-              <div className="text-right">
+              <div className="text-right cursor-pointer">
                 <div className="text-sm font-medium text-gray-900">
                   {userName}
                 </div>
                 <div className="text-xs text-gray-500">Rajasthan, India</div>
               </div>
-              <div className="h-10 w-10 rounded-full bg-purple-600 text-white flex items-center justify-center overflow-hidden">
+              <div className="h-10 w-10 rounded-full bg-purple-600 text-white flex items-center justify-center overflow-hidden cursor-pointer">
                 <img src={Profile} alt="profile-logo" />
               </div>
               <svg
+                className="cursor-pointer"
                 width="18"
                 height="18"
                 viewBox="0 0 18 18"

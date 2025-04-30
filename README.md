@@ -1,7 +1,3 @@
-Sure! Here's a **simple and clear README** for your project:
-
----
-
 # Task Management App
 
 A simple and clean task management app built with **React** and **Tailwind CSS**.

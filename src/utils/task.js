@@ -1,0 +1,51 @@
+export const tasks = [
+    {
+      id: 1,
+      title: "Fix Landing Page Bug",
+      description: "Resolve the layout issue on the home page banner.",
+      priority: "high",
+      comments: 4,
+      files: 2,
+    },
+    {
+      id: 2,
+      title: "Update User Onboarding",
+      description: "Revamp the onboarding steps and animations.",
+      priority: "low",
+      comments: 2,
+      files: 3,
+    },
+    {
+      id: 3,
+      title: "Optimize Image Loading",
+      description: "Implement lazy loading for all images.",
+      priority: "completed",
+      comments: 0,
+      files: 1,
+    },
+    {
+      id: 4,
+      title: "Add Dark Mode",
+      description: "Implement dark mode toggle in settings.",
+      priority: "completed",
+      comments: 1,
+      files: 0,
+    },
+    {
+      id: 5,
+      title: "Refactor Authentication Flow",
+      description: "Simplify the login and registration process.",
+      priority: "high",
+      comments: 3,
+      files: 2,
+    },
+    {
+      id: 6,
+      title: "Improve Performance Metrics",
+      description: "Add more detailed performance tracking.",
+      priority: "completed",
+      comments: 5,
+      files: 4,
+    },
+];
+  

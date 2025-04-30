@@ -1,12 +1,50 @@
-# React + Vite
+Sure! Here's a **simple and clear README** for your project:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+# Task Management App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A simple and clean task management app built with **React** and **Tailwind CSS**.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ View tasks in 3 categories: **To Do**, **On Progress**, and **Done**
+- ➕ Add new tasks under **To Do**
+- 🔍 Search bar in the header (logs search input)
+- 🧭 Sidebar and project header for easy navigation
+- 🎯 Filter and Share options
+
+## Tech Stack
+
+- **React**
+- **Tailwind CSS**
+- **JavaScript**
+
+## How to Run
+
+1. Clone the project:
+
+   ```bash
+   git clone https://github.com/divyanshdj/dashboard-ui
+   cd dashboard-ui
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the app:
+
+   ```bash
+   npm start
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Folder Structure
+
+- `components/` – Reusable components like `Header`, `Sidebar`, `Layout`, etc.
+- `utils/` – Task data or helper functions
+- `App.js` – Main layout combining all sections
